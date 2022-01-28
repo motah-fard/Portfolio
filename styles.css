@@ -1,0 +1,275 @@
+
+* {
+    /* border: width style color; */
+    /* border: 1px solid black  !important;  */
+    border-radius: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(rgb(14, 2, 66), green, blue, alpha); */
+}
+h1 {
+    text-align: 50px 20px 30px 40px;
+    color: white;
+    padding: 170px;
+    background-color:white;
+    /* border: 2px solid black; */
+    margin: 100px 0px 0px 0px;
+    background-image: url(IMG_4933.jpg);
+    background-position:center;
+    background-size: 50%;
+    background-color: black;
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    /* position: absolute;
+    bottom: 10px;
+    left: 10px; */
+    
+    
+    
+}
+a{
+
+}
+
+/* DISPLAY EXAMPLE */
+/* .inline {
+    display: inline;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+} */
+
+.block {
+    display: block;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid rgb(158, 131, 131)  !important; 
+    
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 50px;
+    /* background-color: white; */
+    padding: 50px;
+    text-align: center;
+    background-image: url(IMG_3567.jpg);
+    background-size: 70%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+/* #areil {
+    background-image: url(IMG_5890.jpg);
+} */
+
+
+/* .content{
+    width: 100px;
+    height: 100px;
+    border: 2px dotted red;
+    text-align: center;
+} */
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black  !important; 
+    margin-top: 30px;
+}
+main {
+    background-color: white;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+.contact{
+    padding: 30px;
+    margin:20px ;
+    
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #060342;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:   #6c68c4;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.colum {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+    
+  /* Clear floats after image containers */
+.ro::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+P {
+    padding: 100 px;
+    margin: 0px 200px 50px 200px;
+    margin-top: 30px;
+}
+img{
+    width: 50px;
+}
+.image1 {
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+.site-footer
+{
+  background-color:#757273;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+
+
+
+
+
+
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+
+
+.social-icons a.facebook:hover
+{
+  background-color:#757273
+}
+.social-icons a.twitter:hover
+{
+  background-color:#757273
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#757273
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#757273
+}
