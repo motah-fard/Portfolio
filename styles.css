@@ -1,17 +1,13 @@
 
 * {
-    /* border: width style color; */
-    /* border: 1px solid black  !important;  */
     border-radius: 0px;
     box-sizing: border-box;
-    /* background-color: rgba(rgb(14, 2, 66), green, blue, alpha); */
 }
 h1 {
     text-align: 50px 20px 30px 40px;
     color: white;
     padding: 170px;
     background-color:white;
-    /* border: 2px solid black; */
     margin: 100px 0px 0px 0px;
     background-image: url(IMG_4933.jpg);
     background-position:center;
@@ -19,25 +15,8 @@ h1 {
     background-color: black;
     background-repeat: no-repeat;
     font-family: 'Caveat', cursive;
-    font-size: 25px;
-    /* position: absolute;
-    bottom: 10px;
-    left: 10px; */
-    
-    
-    
+    font-size: 25px;   
 }
-a{
-
-}
-
-/* DISPLAY EXAMPLE */
-/* .inline {
-    display: inline;
-    background-color: white;
-    margin: 20px;
-    text-align: center;
-} */
 
 .block {
     display: block;
@@ -50,7 +29,6 @@ a{
 .inline-block {
     display: inline-block;
     margin: 50px;
-    /* background-color: white; */
     padding: 50px;
     text-align: center;
     background-image: url(IMG_3567.jpg);
@@ -61,17 +39,7 @@ a{
     width: 100px;
     height: 100px;
 }
-/* #areil {
-    background-image: url(IMG_5890.jpg);
-} */
 
-
-/* .content{
-    width: 100px;
-    height: 100px;
-    border: 2px dotted red;
-    text-align: center;
-} */
 footer {
     background-color: white;
     text-align: center;
@@ -90,15 +58,10 @@ main {
     
 }
 
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -120,7 +83,6 @@ input[type=submit]:hover {
     background-color:   #6c68c4;
 }
 
-/* Style the container/contact section */
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
