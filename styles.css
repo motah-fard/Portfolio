@@ -24,9 +24,9 @@ h1 {
     
 } */
 
-.inline-block {
+/* .inline-block {
     display: inline-block;
-    /* margin: 50px; */
+    margin: 50px;
     text-align: center;
     background-image: url(IMG_3567.jpg);
     background-size: 70%;
@@ -35,56 +35,56 @@ h1 {
     background-position: center;
     width: 100px;
     height: 100px;
-}
+} */
 
-footer {
+/* footer {
     background-color: white;
     text-align: center;
-    /* padding: 30px; */
+    padding: 30px;
     border: 1px solid black  !important; 
-    /* margin-top: 30px; */
-}
-main {
+    margin-top: 30px;
+} */
+/* main {
     background-color: white;
     text-align: center;
     font-family: 'Marck Script', cursive;
-}
-.contact{
-    /* padding: 30px; */
-    /* margin:20px ; */
+} */
+/* .contact{
+    padding: 30px; 
+    margin:20px ;
     
-}
+} */
 
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-input[type=text], select, textarea {
+/* input[type=text], select, textarea {
     width: 100%;
-    /* padding: 12px; */
-    /* border: 1px solid #ccc; */
-    /* margin-top: 6px; */
-    /* margin-bottom: 16px; */
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
     resize: vertical;
-}
+} */
 
-input[type=submit] {
+/* input[type=submit] {
     background-color: #060342;
     color: white;
-    /* padding: 12px 20px; */
-    /* border: none; */
+    padding: 12px 20px;
+    border: none;
     cursor: pointer;
-}
+} */
 
-input[type=submit]:hover {
+/* input[type=submit]:hover {
     background-color:   #6c68c4;
-}
-
+} */
+/* 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-}
+} */
 
 
 
@@ -94,40 +94,40 @@ input[type=submit]:hover {
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column, input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
-}
+} */
 
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.colum {
+/* .colum {
     float: left;
     width: 33.33%;
     padding: 5px;
-}
+} */
     
   /* Clear floats after image containers */
-.ro::after {
+/* .ro::after {
     content: "";
     clear: both;
     display: table;
-}
-P {
+} */
+/* P {
     padding: 100 px;
-    /* margin: 0px 200px 50px 200px; */
-    /* margin-top: 30px; */
-}
-img{
+    margin: 0px 200px 50px 200px;
+    margin-top: 30px;
+} */
+/* img{
     width: 50px;
-}
-.image1 {
+} */
+/* .image1 {
     border-radius: 50%;
     width: 25%;
     height: auto;
-}
+} */
 
 
 
