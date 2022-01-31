@@ -9,18 +9,15 @@ html {
 }
 
 #section2 {
-  height: 600px;
-  background-color: #2b2930;;
+  height: auto;
+  background-color: #141414;;
 }
 #section3 {
   height: 600px;
-  background-color: #71687d;;
+  background-color: #1b1b1b;;
 }
 #section4 {
   height: 600px;
-  background-color: #beb8d1;;
+  background-color: #FFFFFF;;
 }
-#section5 {
-  height: 600px;
-  background-color: #f5eff6;;
-}
+
